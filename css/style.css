@@ -464,7 +464,7 @@ footer{
   position: relative;
   margin-top: 400px;
   color: white;
-  border: 1px solid red;
+  border: 1px solid;
 }
 
 .img_footer{

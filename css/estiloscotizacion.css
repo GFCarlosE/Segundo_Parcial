@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+.contenedor{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+    border-radius: 40px;
+
+}
+.contenedor:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../imgCotizacion/cotizacion.jpg") ;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(50px);
+}
+.contenedor-ex{
+    width:100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: white;
+    border-radius: 40px;
+}
+.izquierda{
+  height: 100%;
+  width: 100%;
+  background: url("../imgCotizacion/cotizacion.jpg") no-repeat center;
+  background-size: cover;
+  border-top-left-radius: 40px;
+}
+.derecha{
+padding: 50px 50px;
+margin-left: 10%;
+margin-right: 10%;
+text-align: center;
+align-items: center;
+
+}
+.derecha h1{
+     color:#1F618D;
+     font-size: 75px;
+    }
+
+.subti{
+     color:#1F618D ;
+      font-size: 20px;
+      text-align: r;
+  }
+
+.field{
+  width: 40%; 
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: 1px solid rgb(134, 128, 128);
+  background-color: white;
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  border-radius: 10px;
+}
+.field-1{
+    width: 70%; 
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 1px solid rgb(134, 128, 128);
+    background-color: white;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    border-radius: 10px;
+  }
+.field-2{
+    width: 20%; 
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 1px solid rgb(134, 128, 128);
+    background-color: white;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    border-radius: 10px;
+}
+.btn-cotizar{
+    width: 80%; 
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 1px solid white;
+    background-color:#1F618D;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.btn-cotizar:hover{
+    background-color: #D5D8DC;
+}
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: transparent;
+  } 
+  .header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: white;
+  } 
+
+
+
+@media screen and(max-width:880px){
+    .contenedor-ex{
+        grid-template-columns: 1fr;
+    }
+    .izquierda{
+        height: 200px; ;
+    }
+}
+
+

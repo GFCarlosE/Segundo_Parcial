@@ -1,45 +1,58 @@
-$(document).ready(function(){
-    if(window.location.href.indexOf("index")>-1){
+$(document).ready(function () {
+    if (window.location.href.indexOf("index") > -1) {
         var art = [
-                   {
-                        titulo:"Aguas Calientes",
-                        resumen:"Aguascalientes es un estado en el centro-norte de México. Es conocido por sus viñedos y aguas termales, como los Baños Termales de Ojocaliente, cerca de la capital del estado, Aguascalientes.",
-                        liga:"https://www.lugaresturisticosenmexico.com/turismo-en-aguascalientes/"
+            {
+                titulo: "Aguas Calientes",
+                resumen: "Aguascalientes es un estado en el centro-norte de México. Es conocido por sus viñedos y aguas termales, como los Baños Termales de Ojocaliente, cerca de la capital del estado, Aguascalientes.",
+                liga: "https://www.lugaresturisticosenmexico.com/turismo-en-aguascalientes/"
 
-                    },
+            },
 
-                    {
+            {
 
-                        titulo:"Baja California",
+                titulo: "Baja California",
 
-                        resumen:"Baja California es un estado Mexicano en la Península de Baja California que limita con el estado de California de Estados Unidos. El paisaje se extiende por montañas y playas en el océano Pacífico y el golfo de California.",
+                resumen: "Baja California es un estado Mexicano en la Península de Baja California que limita con el estado de California de Estados Unidos. El paisaje se extiende por montañas y playas en el océano Pacífico y el golfo de California.",
 
-                        liga:"https://www.lugaresturisticosenmexico.com/turismo-en-baja-california/"
+                liga: "https://www.lugaresturisticosenmexico.com/turismo-en-baja-california/"
 
-                    }
+            }
 
         ];
 
-    /*Pasar la información a index */
+        /*Pasar la información a index */
 
-    art.forEach((item) => {
+        art.forEach((item) => {
 
-        var arts = `<article class="arts">
+            var arts = `<div class="section">
 
-                        <h2>${item.titulo}</h2>
-                        <br>
-                        <p>${item.resumen}</p>
-                        <br>
-                        <a href="${item.liga}" class="button-more">Visitar la página</a>
+            <article class="arts">
 
-                    </article>
-                    <br>`;
 
-                    console.log(arts);
 
-        $("#artic").append(arts);
+            <h2 class="titulo_articulo">${item.titulo}</h2>
 
-      });
+
+
+            <p class="texto_articulo">${item.resumen}</p>
+
+
+
+            <a href="${item.liga}" class="button-more">Visitar la página</a>
+
+
+
+        </article>
+
+       
+
+        </div>`;
+
+            console.log(arts);
+
+            $("#artic").append(arts);
+
+        });
 
     }
 

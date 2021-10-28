@@ -759,3 +759,45 @@ footer{
   padding-top: 50px;
   padding-bottom: 50px;
 }
+article{
+
+  text-align: center;
+
+  width: 300px;
+
+}
+
+
+
+.titulo_articulo{
+
+  color: var(--bg-principal);
+
+  margin-bottom: 10px;
+  color: var(--white-color)!important;
+
+
+}
+
+
+
+.texto_articulo{
+
+  color: var(--white-color)!important;
+
+  margin-bottom: 10px;
+
+}
+
+
+
+.button-more{
+
+  
+
+  font-size: 1.2rem;
+
+  font-weight: bold;
+  color: var(--white-color)!important;
+
+}

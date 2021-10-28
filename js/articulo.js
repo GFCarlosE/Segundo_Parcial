@@ -27,12 +27,13 @@ $(document).ready(function(){
         var arts = `<article class="arts">
 
                         <h2>${item.titulo}</h2>
-
+                        <br>
                         <p>${item.resumen}</p>
-
+                        <br>
                         <a href="${item.liga}" class="button-more">Visitar la página</a>
 
-                    </article>`;
+                    </article>
+                    <br>`;
 
                     console.log(arts);
 

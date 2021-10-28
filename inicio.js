@@ -62,7 +62,19 @@ disableOnInteraction: true,
   },
 });
 
+var swiper = new Swiper(".carrusel2", {
 
+  loop: true,
+/*   autoplay: {
+delay: 3000,
+disableOnInteraction: true,
+}, */
+
+  scrollbar: {
+    el: ".swiper-scrollbar",
+    hide: true,
+  },
+});
 
 /* ========== Swiper Discover ======== */
 var swiper = new Swiper(".discover_container", {
@@ -79,3 +91,19 @@ var swiper = new Swiper(".discover_container", {
         el: ".swiper-pagination",
       },
   });
+
+  /* ========== Swiper Discover 2======== */
+var swiper = new Swiper(".container_swiper", {
+  effect: "coverflow",
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: "auto",
+  loop: true,
+  spaceBetween: 20,
+  coverflowEffect: {
+    
+    rotate: 0,
+  },pagination: {
+      el: ".swiper-pagination",
+    },
+});

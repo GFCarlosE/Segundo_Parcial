@@ -130,28 +130,7 @@ align-items: center;
     background-color: white;
   } 
 
-/*=============== NAV ===============*/
-.nav {
-    height: 3rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.nav__logo{
-    color:#1F618D ;
-    font-weight: bold;
-} 
-
-.nav__toggle {
-    color: var(--white-color);
-    font-size: 1.2rem;
-    cursor: pointer;
-}
-
-  .nav__menu {
-    position: relative;
-  } 
 
 @media screen and(max-width:880px){
     .contenedor-ex{

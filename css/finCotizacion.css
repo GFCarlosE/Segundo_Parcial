@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'Raleway', sans-serif !important;
+    
+}
+
+img{
+    height: 897px;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 40px;
+}
+
+
+#cab{
+    margin-top: 20px;
+    margin-left: 920px;
+    margin-right: 130px;
+    margin-bottom: 50px;
+    padding-top: 70px;
+}
+#cab img{
+    width: 30px;
+    height: auto;
+}
+#cab .row h5{
+    margin-left: 40px
+}
+
+#resumen{
+    margin-top: 20px;
+    margin-left: 940px;
+    margin-right: 250px;
+    visibility: visible;
+    text-align: center;
+    border-top: solid 2px grey;
+    border-bottom: solid 2px grey;
+    padding-left: 150px;
+}
+
+#resumen #r1,#r2{
+    border-right: solid 2px grey;
+    padding-bottom: 20px;
+}
+#resumen #row1{
+    margin-top: 10px;
+}
+#resumen #row2{
+    margin-bottom: 10px;
+}
+
+
+#cab1{
+    margin-top: 20px;
+    margin-left: 930px;
+    margin-right: 250px;
+    margin-bottom: 50px;
+    border-bottom: solid 2px grey;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+#cab1 img{
+    width: 40px;
+    height: auto;
+}
+#cab1 .row h6{
+    padding-left: 10px;
+    margin-left: 30px;
+    border: solid 2px cornflowerblue;
+    border-radius: 10px;
+}
+#cab1 .row #qr{
+    width: 110px;
+    height: auto;
+}
+#cab1 .row #download{
+    width: 40px;
+    height: auto;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 70px;
+}
+
+#cab2{
+    margin-top: 20px;
+    margin-left: 940px;
+    margin-right: 250px;
+    padding-left: 10px;
+}
+#cab2 img{
+    width: 50px;
+    height: auto;
+}
